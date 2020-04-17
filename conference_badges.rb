@@ -22,11 +22,11 @@ end
 
 # isnt this question asking me to iterate thru and print the arrays returned by batch_badge_creator & assign_rooms? 
 # incorrect instructions. 
-def printer()
-   batch_badge_creator(attendees).each do |value|
+def printer(array)
+   batch_badge_creator(array).each do |value|
     puts value
   end
-  assign_rooms(attendees).each do |value|
+  assign_rooms(array).each do |value|
     puts value
   end
 end
